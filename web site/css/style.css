@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    background-color: rgb(252, 253, 246);
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.logo-img{
+    width: 130px;
+    cursor: pointer;
+    padding: 30px;   
+}
+
+.item{
+    display: flex;
+}
+.li-item{
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+.search-bar{
+    display: flex;
+}
+.nar-bar{
+    display: flex;
+    justify-content:space-around;
+    background-color: cadetblue;
+    cursor: pointer;
+
+}
+
+.search-box{
+    margin: 19px;
+    border: none;
+}
+.search-text{
+        margin: 18px;
+        font-size: 24px ;
+        font-family: fantasy;
+        font-weight: 200;
+}
+.option{
+    background-color: cadetblue;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: fantasy;
+
+}
+.option:hover{
+    color: white;
+}
+.li-item:hover{
+    color:white;
+}
+.search-text:hover{
+    color: white;
+}
